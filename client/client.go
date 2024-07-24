@@ -16,4 +16,6 @@ type Client struct {
 	peerID [20]byte
 }
 
-func completeHandshake(conn net.Conn, infoHash, peerID [20]byte) (*handshake.Handshake,error)
+func completeHandshake(conn net.Conn, infoHash, peerID [20]byte) (*handshake.Handshake,error) {
+	
+}
